@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Roboto, Press_Start_2P } from "next/font/google";
+import { Roboto } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 
@@ -7,12 +7,6 @@ const roboto = Roboto({
   subsets: ["latin"],
   weight: ["100", "300", "400", "700"],
 });
-
-// const pressStartToP = Press_Start_2P({
-//   subsets: ["latin"],
-//   style: ["normal"],
-//   weight: ["400"],
-// });
 
 export const metadata: Metadata = {
   title: "Stalega",
